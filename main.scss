@@ -1,0 +1,253 @@
+%h1{
+    padding: 0 10% 0 25%; 
+    text-align: justify;
+    color: #003770;
+    font-family: Rubik;
+    font-weight: bold;
+ }
+body{
+    margin:0;
+
+   nav{
+    display: flex;
+    padding: 5px;
+    height: 60px;
+    vertical-align: middle;
+    background-color:#003770;
+    position: relative;
+    font: {
+        family: Rubik;
+        size: 16px;
+        style: bold;
+
+    }
+    img{
+
+        max-width: 180px;
+        margin: 0 190px 0 0;
+        vertical-align: middle;
+  }
+    ul{
+    list-style: none;
+    text-align: center;
+
+    li{
+
+        display: inline;
+        margin: 10px;
+
+        a{
+            text-decoration: none;
+            color:white;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+
+    }}
+    .call{
+
+        position: absolute;
+
+        right: 5%;
+        top: 0;
+        height:60px ;
+        padding: 5px;
+        width: 211px;
+        background-color: #FFC631;
+
+        p{
+            font-size: 11px;
+            color:#003770;
+            text-align: left;
+        }
+        #tel{
+            font-size: 17px;
+            font-weight: bold;
+        }
+        #tel-icon{
+            margin: 10px;
+            max-height: 25px;
+            float: left;
+        }
+    }
+
+}
+
+header{
+    display: block;
+    width: 100%;
+    height: 160px;
+    background: url(header-foto.png);
+    color:white;
+    font-family: Rubik;
+
+    h2{
+        position: absolute;
+        left: 260px;
+        top: 160px;
+
+    }
+    p{
+        position: absolute;
+        right: 200px;
+        top: 180px;
+        font-size: 14px;
+
+    }
+
+    hr{
+        position: absolute;
+        width:406px;
+        height: 4px;
+        top: 130px;
+        color:yellow;
+        background-color: #FFC631;
+        border-color: yellow;
+    }
+
+}
+.container{
+.home{
+    background-image:url(image3.png);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    table{
+        border-collapse: collapse;
+        padding: 0;
+        width: 100%;
+        
+        .yazi{
+            border: none;
+            
+            h1{
+              @extend %h1
+             }
+             p{ 
+                @extend %h1;
+                font-weight: normal;            
+
+             }   
+        }
+            .photo{
+                margin:0;
+                padding:0;
+                img{
+                    max-width: 100%;
+                   }
+                }   
+            }
+
+            #white{
+                background-color: white;
+                padding: 0 10% 10% 25%; 
+                text-align: justify;
+                width: 100px;
+                height: 500px;
+
+                h1{
+                     @extend %h1;
+                
+                }
+                p{ 
+                    @extend %h1;
+                    font-weight: normal;
+                }
+                img{
+                    padding: 10% 10% 0 25%;
+                    
+                }
+                
+            }
+
+   .urun{
+       background-color: #001F3F;
+                width: 100px;
+                height: 800px;
+                padding: 10px;
+               
+                h3{
+                    color:white;
+                    font-family: Rubik;
+                    font-weight: bold;
+                    
+                }
+                p{ 
+                    color:white;
+                    font-family: Rubik;
+                    padding: 0 32% 0 32%;
+
+                }
+}
+                
+       
+}   
+#urunlerimiz{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    width: 600px;
+    text-align: ce;
+    color: #FFC631;
+    margin: 20px;
+    
+
+    th{
+        color:white;
+        font-size: 11px;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+
+    span{
+        color: white;
+        opacity: 60%;
+        font-size: 11px;
+        font-weight: normal;
+    }
+
+     
+} }
+footer{
+    background-color: #003770;
+    position: static;
+    bottom: 0;
+    height: 160px;
+    color: white;
+    padding: 20px;
+    .row{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .col{
+            margin-top: 30px;
+            flex-basis:12%;
+            p{
+                font-family: rubik;
+            }
+          }
+          #logo{
+            width: 250px;
+          
+        }
+        .icons{
+            a{
+            margin:-10px;
+            width: 13px;
+            height: 13px;}
+        }
+
+    }
+   
+   
+    }
+}
+
+    
+    

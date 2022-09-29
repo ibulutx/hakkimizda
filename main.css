@@ -1,0 +1,197 @@
+body .container .home #white p, body .container .home #white h1, body .container .home table .yazi p, body .container .home table .yazi h1 {
+  padding: 0 10% 0 25%;
+  text-align: justify;
+  color: #003770;
+  font-family: Rubik;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+}
+body nav {
+  display: flex;
+  padding: 5px;
+  height: 60px;
+  vertical-align: middle;
+  background-color: #003770;
+  position: relative;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: bold;
+}
+body nav img {
+  max-width: 180px;
+  margin: 0 190px 0 0;
+  vertical-align: middle;
+}
+body nav ul {
+  list-style: none;
+  text-align: center;
+}
+body nav ul li {
+  display: inline;
+  margin: 10px;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+body nav .call {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  height: 60px;
+  padding: 5px;
+  width: 211px;
+  background-color: #FFC631;
+}
+body nav .call p {
+  font-size: 11px;
+  color: #003770;
+  text-align: left;
+}
+body nav .call #tel {
+  font-size: 17px;
+  font-weight: bold;
+}
+body nav .call #tel-icon {
+  margin: 10px;
+  max-height: 25px;
+  float: left;
+}
+body header {
+  display: block;
+  width: 100%;
+  height: 160px;
+  background: url(header-foto.png);
+  color: white;
+  font-family: Rubik;
+}
+body header h2 {
+  position: absolute;
+  left: 260px;
+  top: 160px;
+}
+body header p {
+  position: absolute;
+  right: 200px;
+  top: 180px;
+  font-size: 14px;
+}
+body header hr {
+  position: absolute;
+  width: 406px;
+  height: 4px;
+  top: 130px;
+  color: yellow;
+  background-color: #FFC631;
+  border-color: yellow;
+}
+body .container .home {
+  background-image: url(image3.png);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body .container .home table {
+  border-collapse: collapse;
+  padding: 0;
+  width: 100%;
+}
+body .container .home table .yazi {
+  border: none;
+}
+body .container .home table .yazi p {
+  font-weight: normal;
+}
+body .container .home table .photo {
+  margin: 0;
+  padding: 0;
+}
+body .container .home table .photo img {
+  max-width: 100%;
+}
+body .container .home #white {
+  background-color: white;
+  padding: 0 10% 10% 25%;
+  text-align: justify;
+  width: 100px;
+  height: 500px;
+}
+body .container .home #white p {
+  font-weight: normal;
+}
+body .container .home #white img {
+  padding: 10% 10% 0 25%;
+}
+body .container .home .urun {
+  background-color: #001F3F;
+  width: 100px;
+  height: 800px;
+  padding: 10px;
+}
+body .container .home .urun h3 {
+  color: white;
+  font-family: Rubik;
+  font-weight: bold;
+}
+body .container .home .urun p {
+  color: white;
+  font-family: Rubik;
+  padding: 0 32% 0 32%;
+}
+body .container #urunlerimiz {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  width: 600px;
+  text-align: ce;
+  color: #FFC631;
+  margin: 20px;
+}
+body .container #urunlerimiz th {
+  color: white;
+  font-size: 11px;
+  text-align: left;
+  vertical-align: middle;
+}
+body .container #urunlerimiz span {
+  color: white;
+  opacity: 60%;
+  font-size: 11px;
+  font-weight: normal;
+}
+body footer {
+  background-color: #003770;
+  position: static;
+  bottom: 0;
+  height: 160px;
+  color: white;
+  padding: 20px;
+}
+body footer .row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+body footer .row .col {
+  margin-top: 30px;
+  flex-basis: 12%;
+}
+body footer .row .col p {
+  font-family: rubik;
+}
+body footer .row #logo {
+  width: 250px;
+}
+body footer .row .icons a {
+  margin: -10px;
+  width: 13px;
+  height: 13px;
+}/*# sourceMappingURL=main.css.map */
